@@ -6,7 +6,7 @@
     <nav class="uk-navbar-container uk-sticky"
          data-uk-sticky="top: 50vh; animation: uk-animation-slide-top;"
          style="background: #fff; box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%) !important;">
-        <div class="uk-container">
+        <div class="uk-container uk-container-large">
             <div data-uk-navbar>
 
                 <div class="uk-navbar-left">
@@ -39,10 +39,10 @@
 
                     <ul class="uk-navbar-nav">
                         <li>
-                            <router-link to="#">Login</router-link>
+                            <router-link to="/login">Login</router-link>
                         </li>
                         <li>
-                            <router-link to="#">Registration</router-link>
+                            <router-link to="/registration">Registration</router-link>
                         </li>
                     </ul>
 
