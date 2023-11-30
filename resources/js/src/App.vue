@@ -19,6 +19,9 @@ export default defineComponent({
             username: 'DiMoN'
         };
     },
+    created() {
+        console.log('created');
+    },
 });
 </script>
 

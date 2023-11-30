@@ -25,6 +25,9 @@ export default defineComponent({
     setup() {
         return {};
     },
+    mounted() {
+        console.log('mounted home');
+    },
 });
 </script>
 
